@@ -1,0 +1,36 @@
+.durationSelector {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: flex-start;
+
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  select {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+
+    &:hover {
+      border-color: #0070f3;
+      background-color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #0070f3;
+    }
+  }
+}
